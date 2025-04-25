@@ -36,8 +36,8 @@ These instructions describe how to deploy the app to a Kubernetes cluster using 
 ```bash
     cd .infrastructure
     kubectl apply -f deployment.yml
-    kubectl apply -f hpa.yml
     kubectl apply -f metricsserver.yml
+    kubectl apply -f hpa.yml
 ```
 
 ## Explanation of Configuration Choices
